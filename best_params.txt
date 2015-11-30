@@ -1,0 +1,21 @@
+alpha_min: 0.08
+gamma: 1.17
+radius: 1
+distance: gauss
+iteration: 10000
+rate: 20
+
+int a = floor(1*max_iter/12);
+	int b = floor(3*max_iter/12);
+	int c = floor(6*max_iter/12);
+	int d = floor(10*max_iter/12);
+	if (i < a)
+		return 0.9;
+	else if (i < b)
+		return 0.4;
+	else if (i < c)
+		return 0.3;
+	else if (i < d)
+		return 0.18;
+	else
+		return alpha_min;
