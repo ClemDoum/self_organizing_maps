@@ -110,5 +110,9 @@ I recommend using 10000 iterations
 For instance if you use 2 we record an image every 2 iterations.
 
 
+### Visualize
 
+Once the algorithm has run you can create a video of the training like this:
+
+ffmpeg -i ko_prototypes/kohonen-%06d.ppm kohonen.mpeg -y
 
