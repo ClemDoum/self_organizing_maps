@@ -8,7 +8,7 @@ movie_km:
 	ffmpeg -i km_prototypes/kmeans-%06d.ppm -y kmeans.mpeg
 
 movie_ko:
-	ffmpeg -i ko_prototypes/kmeans-%06d.ppm -y kohonen.mpeg
+	ffmpeg -i ko_prototypes/kohonen-%06d.ppm -y kohonen.mpeg
 
 clean:
 	rm k-means kohonen
