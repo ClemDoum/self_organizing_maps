@@ -1,5 +1,6 @@
 #include "Base.h"
 #include <math.h>
+#include <stdexcept>
 // g++ -std=c++11 -o k-means -Wall -ansi -O3 bin/kohonen.cpp
 // bin/kohonen train 0.08 1.15 1 10000 10
 // bin/kohonen train 0.075 1.17 1 10000 20

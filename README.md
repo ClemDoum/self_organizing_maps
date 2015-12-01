@@ -56,6 +56,9 @@ Once the algorithm has run you can create a video of the training like this:
     
     ffmpeg -i km_prototypes/kmeans-%06d.ppm kmeans.mpeg -y
 
+or:
+
+    movie_km
 
 
 
@@ -114,5 +117,9 @@ For instance if you use 2 we record an image every 2 iterations.
 
 Once the algorithm has run you can create a video of the training like this:
 
-ffmpeg -i ko_prototypes/kohonen-%06d.ppm kohonen.mpeg -y
+    ffmpeg -i ko_prototypes/kohonen-%06d.ppm kohonen.mpeg -y
+
+or
+
+    make movie_ko
 
